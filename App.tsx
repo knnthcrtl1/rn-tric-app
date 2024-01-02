@@ -8,7 +8,7 @@
 import React from 'react';
 // import type {PropsWithChildren} from 'react';
 import {SafeAreaView} from 'react-native';
-import {Text} from 'react-native-paper';
+import Login from './src/screens/Login/Login';
 
 // type SectionProps = PropsWithChildren<{
 //   title: string;
@@ -25,7 +25,7 @@ import {Text} from 'react-native-paper';
 function App(): React.JSX.Element {
   return (
     <SafeAreaView>
-      <Text>test</Text>
+      <Login />
     </SafeAreaView>
   );
 }
