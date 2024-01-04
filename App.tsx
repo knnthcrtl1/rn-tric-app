@@ -9,6 +9,8 @@ import React from 'react';
 // import type {PropsWithChildren} from 'react';
 import {SafeAreaView} from 'react-native';
 import Login from './src/screens/Login/Login';
+import Text from './src/styled-components/Text';
+import View from './src/styled-components/View';
 
 // type SectionProps = PropsWithChildren<{
 //   title: string;
