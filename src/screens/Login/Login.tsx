@@ -4,7 +4,7 @@ import LoginComponent from '../../components/Login';
 
 const Login = () => {
   return (
-    <View>
+    <View className="flex flex-row h-full justify-center items-center space-x-2 mx-3">
       <LoginComponent />
     </View>
   );
