@@ -6,6 +6,7 @@ module.exports = {
     extend: {
       colors: {
         'primary-blue': '#4865EF',
+        'login-btn': '#F0F4F8',
       },
     },
   },
