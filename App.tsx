@@ -11,6 +11,7 @@ import {SafeAreaView} from 'react-native';
 import Login from './src/screens/Login/Login';
 import Text from './src/styled-components/Text';
 import View from './src/styled-components/View';
+import VerifyOtp from './src/screens/VerifyOtp/VerifyOtp';
 
 // type SectionProps = PropsWithChildren<{
 //   title: string;
@@ -27,7 +28,8 @@ import View from './src/styled-components/View';
 function App(): React.JSX.Element {
   return (
     <SafeAreaView>
-      <Login />
+      {/* <Login /> */}
+      <VerifyOtp />
     </SafeAreaView>
   );
 }

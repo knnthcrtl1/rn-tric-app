@@ -7,7 +7,7 @@ import Button from '../../styled-components/Button';
 
 const LoginHeader = () => {
   return (
-    <View className="flex space-y-2 ">
+    <View className="flex space-y-2">
       <View className="flex items-center">
         <Logo />
       </View>
